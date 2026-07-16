@@ -24,3 +24,34 @@ body{
     padding: 5px;
 
 }
+
+.display {
+    height: 25%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(122, 121, 121);
+
+}
+
+.keys {
+    height: 75%;
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap:4px;
+}
+
+button{
+    height: 100%;
+    width: 100%;
+    border: none;
+    background-color: rgb(37, 37, 36);
+    color: azure;
+    font-size: 2px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+}
