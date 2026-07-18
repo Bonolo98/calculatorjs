@@ -15,7 +15,7 @@ function calculate() {
       let array = Array.from(display.innerText);
       array.pop();
       display.innerText = array.join("");
-    } else if (digir == "=") {
+    } else if (digit == "=") {
       display.innerText = eval(display.innerText);
     } else {
       display.innerText += digit;
